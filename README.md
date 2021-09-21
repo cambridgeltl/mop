@@ -1,4 +1,5 @@
-# Code for anonymous submission:  Mixture-of-Partitions: Infusing Large Biomedical Knowledge Graphs into BERT
+# Codes for paper: 
+> [Zaiqiao Meng, Fangyu Liu, Thomas Hikaru Clark, Ehsan Shareghi, Nigel Collier. Mixture-of-Partitions: Infusing Large Biomedical Knowledge Graphs into BERT. EMNLP2021](https://arxiv.org/abs/2109.04810)
 
 ## File structure
 
@@ -136,3 +137,4 @@ done
 |max_seq_length|256|
 |repeat_run|5|
 |temperature|1|
+
