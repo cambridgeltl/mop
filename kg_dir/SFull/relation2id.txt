@@ -1,0 +1,21 @@
+20
+has causative agent	0
+has active ingredient	1
+has direct substance	2
+has finding site	3
+has direct procedure site	4
+has procedure site	5
+possibly equivalent to	6
+has occurrence	7
+has associated morphology	8
+has direct morphology	9
+interprets	10
+has method	11
+has direct device	12
+has dose form	13
+has subject relationship context	14
+has pathological process	15
+has interpretation	16
+moved to	17
+has intent	18
+has temporal context	19

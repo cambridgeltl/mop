@@ -1,0 +1,19 @@
+0:Activating invasion and metastasis--Metastasis    IM
+
+1:Avoiding immune destruction--Immune response  ID
+
+2 Cellular energetics--Glycolysis/Warburg effect CE
+
+3 Enabling replicative immortality-   RI
+
+4: Evading growth suppressors   						GS
+
+5:Genomic instability and mutation--DNA damage-- GI
+
+6 Inducing angiogenesis   A
+
+7:Resisting cell death--Apoptosis    				CD
+
+8:Sustaining proliferative signaling--Growth factors growth promoting signals--   PS
+
+9: Tumor promoting inflammation--Inflammation TPI
