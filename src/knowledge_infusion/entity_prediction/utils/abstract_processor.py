@@ -3,7 +3,6 @@ import sys
 
 import numpy as np
 import torch
-from nltk.tokenize import sent_tokenize
 from tqdm.auto import tqdm
 
 from .common import timeit

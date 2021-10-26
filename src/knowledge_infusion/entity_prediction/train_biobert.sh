@@ -1,16 +1,15 @@
 MODEL="dmis-lab/biobert-v1.1"
 TOKENIZER="dmis-lab/biobert-v1.1"
-INPUT_DIR="kg_dir"
-OUTPUT_DIR="model_dir"
-DATASET_NAME="snomed_ro"
+INPUT_DIR="../../../kg_dir/"
+KG_NAME="S20Rel"
+OUTPUT_DIR="../../../model_dir/"
 ADAPTER_NAMES="entity_predict"
 PARTITION=20
 
 python run_pretrain.py \
 --model $MODEL \
 --tokenizer $TOKENIZER \
---input_dir $INPUT_DIR \
---data_name $DATASET_NAME \
+--input_dir $INPUT_DIR$KG_NAME \
 --output_dir $OUTPUT_DIR \
 --n_partition $PARTITION \
 --use_adapter \

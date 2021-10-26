@@ -1,16 +1,15 @@
 MODEL="allenai/scibert_scivocab_uncased"
 TOKENIZER="allenai/scibert_scivocab_uncased"
-INPUT_DIR="kg_dir"
-OUTPUT_DIR="model_dir"
-DATASET_NAME="snomed_ro"
+INPUT_DIR="../../../kg_dir/"
+KG_NAME="S20Rel"
+OUTPUT_DIR="../../../model_dir/"
 ADAPTER_NAMES="entity_predict"
 PARTITION=20
 
 python run_pretrain.py \
 --model $MODEL \
 --tokenizer $TOKENIZER \
---input_dir $INPUT_DIR \
---data_name $DATASET_NAME \
+--input_dir $INPUT_DIR$KG_NAME \
 --output_dir $OUTPUT_DIR \
 --n_partition $PARTITION \
 --use_adapter \
@@ -22,5 +21,5 @@ python run_pretrain.py \
 --max_seq_length 64 \
 --batch_size 256 \
 --lr 1e-04 \
---epochs 2 \
+--epochs 1 \
 --save_step 2000
