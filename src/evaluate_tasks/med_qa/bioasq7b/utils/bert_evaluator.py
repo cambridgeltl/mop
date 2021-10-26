@@ -1,5 +1,3 @@
-import os
-import pickle
 import warnings
 
 import numpy as np
@@ -11,13 +9,7 @@ from tabulate import tabulate
 from torch.utils.data import DataLoader, SequentialSampler, TensorDataset
 from tqdm import tqdm
 
-from utils.preprocessing import pad_input_matrix
-
-from .abstract_processor import (
-    convert_examples_to_features,
-    convert_examples_to_features_long,
-    convert_examples_to_hierarchical_features,
-)
+from .abstract_processor import convert_examples_to_features
 
 # Suppress warnings from sklearn.metrics
 warnings.filterwarnings("ignore")

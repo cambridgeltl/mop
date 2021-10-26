@@ -9,8 +9,6 @@ in May 2020
 import csv
 import sys
 
-import numpy as np
-import torch
 from nltk.tokenize import sent_tokenize
 
 
@@ -95,7 +93,6 @@ class BertProcessor(object):
         :param quotechar:
         :return:
         """
-        import sys
 
         csv.field_size_limit(sys.maxsize)
 

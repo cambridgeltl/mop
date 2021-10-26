@@ -1,8 +1,8 @@
 DATASET="BioAsq"
-MODEL_DIR="model_dir"
-DATA_DIR="data_dir/BioASQ/"
+MODEL_DIR="../../../../model_dir/"
+DATA_DIR="../../../../../data/BLURB/data/BioASQ/" 
 BASE_MODEL="microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext"
-MODEL="BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext_snomed_ro_20210309_101949_adapter"
+MODEL="PubMedBERT_S20Rel"
 T=1
 LR=1e-5
 TRAIN_MODE="fusion"

@@ -1,8 +1,9 @@
 DATASET="MEDNLI"
 MODEL_DIR="model_dir"
-DATA_DIR="data_dir/blue/data/mednli/"
+MODEL_DIR="../../../model_dir/"
+DATA_DIR="../../../../data/blue/data/mednli/"
 BASE_MODEL="microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext"
-MODEL="BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext_snomed_ro_20210309_101949_adapter"
+MODEL="PubMedBERT_S20Rel"
 LR=1e-5
 TRAIN_MODE="fusion"
 python eval_nli.py \
@@ -18,5 +19,4 @@ python eval_nli.py \
 --repeat_runs 3 \
 --pretrain_epoch 0 \
 --epochs 25 \
---temperature $T \
 --cuda

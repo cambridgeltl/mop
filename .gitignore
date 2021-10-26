@@ -5,3 +5,4 @@ wandb/
 model_dir/
 kg_dir/
 __pycache__/
+temp/

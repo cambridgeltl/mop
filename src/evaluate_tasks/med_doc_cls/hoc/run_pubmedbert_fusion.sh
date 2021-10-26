@@ -1,8 +1,8 @@
 DATASET="Hoc"
-MODEL_DIR="model_dir"
-DATA_DIR="data_dir/BLURB/data/HoC/"
+MODEL_DIR="../../../../model_dir/"
+DATA_DIR="../../../../../data/med_cls/HOC/" 
 BASE_MODEL="microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext"
-MODEL="BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext_snomed_ro_20210309_101949_adapter"
+MODEL="PubMedBERT_S20Rel"
 T=1
 LR=2e-5
 BATCH_SIZE=32

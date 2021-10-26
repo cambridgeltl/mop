@@ -1,12 +1,10 @@
 import datetime
-import os
 import sys
 
 import torch
 import torch.nn.functional as F
 from torch.utils.data import DataLoader, RandomSampler, TensorDataset
 from tqdm import tqdm
-from transformers import get_linear_schedule_with_warmup as WarmupLinearSchedule
 
 from .abstract_processor import convert_examples_to_features
 from .bert_evaluator import BertEvaluator
