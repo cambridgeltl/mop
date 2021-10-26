@@ -6,7 +6,6 @@ from datetime import datetime
 import numpy as np
 import torch
 import torch.nn as nn
-from tabulate import tabulate
 from transformers import (
     AdamW,
     AdapterConfig,
@@ -21,7 +20,7 @@ from utils.bert_trainer import BertTrainer
 from utils.common import print_args_as_table
 from utils.kg_processor import KGProcessor
 
-# 1. Start a W&B run
+# 1. Start a W&B run, please remove all the wandb codes if you don't use it.
 wandb.init(project="Entity prediction with partition")
 
 
@@ -58,12 +57,10 @@ def get_args():
     parser.add_argument("--adapter_names", default=None, type=str, required=False)
     parser.add_argument(
         "--input_dir",
-        default="/home/zm324/workspace/data/kgs/umls/snomed_ro/",
         type=str,
     )
     parser.add_argument(
         "--output_dir",
-        default="models/kg_bert/",
         type=str,
         required=False,
     )

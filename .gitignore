@@ -1,4 +1,7 @@
 **.ipynb_checkpoints/
 *.pyc
 *.log
-**wandb/
+wandb/
+model_dir/
+kg_dir/
+__pycache__/

@@ -5,11 +5,10 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 from torch.cuda.amp import autocast
-from torch.utils.data import DataLoader, RandomSampler, TensorDataset
+from torch.utils.data import DataLoader, RandomSampler
 from tqdm.auto import tqdm
 from transformers import get_linear_schedule_with_warmup
 
-from .abstract_processor import convert_examples_to_features
 from .common import timeit
 
 
