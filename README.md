@@ -138,3 +138,13 @@ done
 |repeat_run|5|
 |temperature|1|
 
+### If you find our paper and resources useful, please kindly cite our paper:
+```latex
+@inproceedings{meng2021mixture,
+  title={Mixture-of-Partitions: Infusing Large Biomedical Knowledge Graphs into BERT},
+  author={Meng, Zaiqiao and Liu, Fangyu and Clark, Thomas and Shareghi, Ehsan and Collier, Nigel},
+  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},
+  pages={4672--4681},
+  year={2021}
+}
+```
